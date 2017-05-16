@@ -64,7 +64,7 @@ You can now edit the Basic API call (JavaScript) sample code and it will save it
 
 For example, if four cells are selected,
 
-![alt text](Image1_lesson1.png)
+![alt text](https://github.com/ClareMSYanGit/addin-workshop/blob/Draft0516/Image1_lesson1.png)
 
 Hints:
 
