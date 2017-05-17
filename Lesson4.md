@@ -22,12 +22,11 @@ In order to use these two new APIs, you need Excel API requirement set 1.6 to be
 
 Now that you have the information, add a button to calculate our price table range B2:E7 (including our totals) and also to apply conditional formatting to the price table numbers in B3:E5.
 
-4.1 Add the button to recalculate the range of the prices table
+4.1 Add the button to recalculate the range of the prices table.
 
-4.2 In the same button handler, add code to apply conditional formatting
+4.2 In the same button handler, add code to apply conditional formatting.
 
 
 Hints:
 
 - It might be convenient to remove the stock multiply buttons from the sample code to make room for your new buttons.
-

@@ -29,8 +29,8 @@ Observations:
 -   The cells selected should be highlighted in yellow.
 -   Review the code in the Code pane.
 
-Notice the Excel.run() invocation
-``` 
+Notice the ```Excel.run()``` invocation
+```
 
 $("#run").click(run);
 
@@ -50,10 +50,10 @@ function run() {
         });
 }
 ```
-Note the context.sync() and .then pattern. Asynchronous code must always
+Note the ```context.sync()``` and ```.then``` pattern. Asynchronous code must always
 return a Promise.
 
-Notice the output from the console.log() call on line 11 on the Firebug
+Notice the output from the ```console.log()``` call on line 10 on the Firebug
 Console tab.
 
 Adding some functionality:
@@ -68,15 +68,14 @@ For example, if four cells are selected,
 
 Hints:
 
--   Use the .values property of the Range object.
+-   Use the ```.values``` property of the Range object.
 -   Remember to load "values" first and then sync.
--   Fewer calls to context.sync mean fewer calls to the Office application.
+-   Fewer calls to ```context.sync``` mean fewer calls to the Office application.
 -   If you use another function to populate, remember to pass in the context as well as the range.
 -   If you get stuck, look at the other sample snippets for ideas.
 
 1.11 Once satisfied, run it to show the populated cells.
 
-1.12 Now you have a modified version of the Basic API call (JavaScript) sample code in "MySnippets". Navigate to see that it's there.
+1.12 Now you have a modified version of the Basic API call (JavaScript) sample code in MySnippets. Navigate to see that it's there.
 
 This modified code in MySnippets will only remain in the add-in memory until you clear your browser cache. We'll discuss saving and sharing the code in another lesson.
-
