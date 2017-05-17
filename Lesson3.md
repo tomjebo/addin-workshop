@@ -7,7 +7,6 @@ Now let's add a chart based on the code we've started in Lesson 2.
 
 Hints:
 
-- Use the Chart Collection, "add" method.
+- Use the chart collection add method.
 
 - See <https://dev.office.com/reference/add-ins/excel/chartcollection>
-
