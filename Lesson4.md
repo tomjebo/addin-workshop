@@ -6,10 +6,9 @@ Some new functions were added recently and we can make use of them. First, make 
 
 4.0.1
 
-For the calculate() function below, turn off the automatic formula calculation by going to:
-File > Options > Formulas > select **Manual** under Workbook Calculation
+For the ```calculate()``` function below, turn off the automatic formula calculation by going to File > Options > Formulas > select **Manual** under Workbook Calculation
 
-To use the Range.Calculate() method and for calculate(), see https://dev.office.com/reference/add-ins/excel/range
+To use the ```Range.Calculate()``` method and for ```calculate()```, see https://dev.office.com/reference/add-ins/excel/range
 
 For the ConditionalFormat object, see:
 
