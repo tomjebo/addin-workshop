@@ -51,6 +51,6 @@ addresses are 1 based.
 
 Notice that the ```sum()``` method returns programmatically the value of the sum of the range, which we add to a cell. However, typically, you'd add a formula like this: ``` =sum(<range>) ``` into that cell instead of the resulting value.
 
-2.7 You will be using the range calculation API in Lesson 4, so let's add another value into the Grand Total row. This one should total up the Qty column but not use the ```workbook.function.sum()``` method. Instead add the ```=sum()``` formula into the cell for later calculation.
+2.7 You will be using the range calculation API in Lesson 4, so let's add another value into the Grand Total row. This one should total up the Qty column but not use the ```workbook.functions.sum()``` method. Instead add the ```=sum()``` formula into the cell for later calculation.
 
 2.8 After this is successful, add another row with Tax (say B6:E6) and include that into the Grand Total amount.
