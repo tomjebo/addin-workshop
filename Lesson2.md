@@ -1,12 +1,14 @@
 # Lesson 2: TypeScript
 
 
-## Prep for TypeScript
+## TypeScript Exercise
 
 Up to this point, you've used JavaScript to call the APIs only. You haven't
-tried TypeScript yet.
+tried TypeScript yet. 
 
-To prepare for this lesson, do a simple modification to the code from Lesson 1.
+NOTE: If you don't know anything about TypeScript, it's OK! You can still follow along and even complete this lesson fairly easily. After all, it's still javascript and your knowledge still applies.
+
+To prepare for this lesson, perform an exercise by making a simple modification to the code from Lesson 1.
 
 2.0.1 Convert the ```return context.sync .then``` construct to the simpler and more readable ```async/await``` TypeScript construct.
 
