@@ -5,6 +5,10 @@
 
 1.1 Open Excel (preferably the desktop version).
 
+* We will be using the Excel JavaScript API. For information about the API requirements click the link below:
+* [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md)
+    * If you do not have the latest version of Excel, you can use Excel Online for this workshop.
+
 1.2 Go to Insert > My Add-ins > the Store icon (red shopping bag).
 
 1.3 Search for "Script Lab".
@@ -22,12 +26,18 @@
 
 1.8 In the **Run** pane, select the same.
 
-1.9 Select a matrix of several cells and click the **Run Code** button.
+1.9 Select a matrix of several cells (see photo below) and click the **Run Code** button.
+* For example, if four cells are selected
+
+    ![alt text](Image1_lesson1.png)
 
 Observations:
 
--   The cells selected should be highlighted in yellow.
--   Review the code in the Code pane.
+* The cells selected should be highlighted in yellow.
+
+    ![alt text](Image2_lesson1.PNG)
+
+* Review the code in the Code pane.
 
 Notice the ```Excel.run()``` invocation
 ```
@@ -62,9 +72,9 @@ You can now edit the Basic API call (JavaScript) sample code and it will save it
 
 1.10 Using the Script Lab code editor, modify the code to populate the cells with increasing numbers starting at 1.
 
-For example, if four cells are selected,
+For example, if four cells are selected, the output will look like this;
 
-![alt text](Image1_lesson1.png)
+![alt text](Image3_lesson1.png)
 
 Hints:
 
