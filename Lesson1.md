@@ -78,11 +78,13 @@ For example, if four cells are selected, the output will look like this;
 
 Hints:
 
--   Use the ```.values``` property of the Range object.
--   Remember to load "values" first and then sync.
--   Fewer calls to ```context.sync``` mean fewer calls to the Office application.
--   If you use another function to populate, remember to pass in the context as well as the range.
--   If you get stuck, look at the other sample snippets for ideas.
+* Use the ```.values``` property of the Range object.
+* Remember to load "values" first and then sync.
+* Fewer calls to ```context.sync``` mean fewer calls to the Office application.
+* If you use another function to populate, remember to pass in the context as well as the range.
+* If you get stuck, look at the other sample snippets for ideas.
+* For more information about Range objects click on the link below:
+    * [Range Object - JavaScript API for Excel](https://github.com/OfficeDev/office-js-docs/blob/master/reference/excel/range.md)
 
 1.11 Once satisfied, run it to show the populated cells.
 
