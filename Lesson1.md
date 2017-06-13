@@ -89,5 +89,12 @@ Hints:
 1.11 Once satisfied, run it to show the populated cells.
 
 1.12 Now you have a modified version of the Basic API call (JavaScript) sample code in MySnippets. Navigate to see that it's there.
+* To get My Snippets, click on the hamburger menu in the top left corner of the code panel. Then click on My Snippets at the top. Then you should see your snippet under the **My snippets on this computer** section.
+* This modified code in MySnippets will only remain in the add-in memory until you clear your browser cache.
 
-This modified code in MySnippets will only remain in the add-in memory until you clear your browser cache. We'll discuss saving and sharing the code in another lesson.
+1.13 Save your snippets on GitHub
+* If you want to save your snippet, you can do that by first signing in with GitHub on the My Snippet page.
+* Then click on the snippet you want to save. This will take you to the text editor portion of the code panel. 
+* Hover over the share button and choose either **Public gist** or **Private gist**
+
+
