@@ -47,6 +47,8 @@ Now add a new button and handler to create a Grand Total under the Total Price c
 2.5 Add another button with a label of "Grand Total".
 
 2.6 Add code to total the Total Price column and put the result in E7 (below the last entry). Also add the label "Grand Total" in B7.
+* This should be the result
+![Grand Total Table](Image1_lesson2.png)
 
 Hints:
 
@@ -58,5 +60,7 @@ addresses are 1 based.
 Notice that the ```sum()``` method returns programmatically the value of the sum of the range, which we add to a cell. However, typically, you'd add a formula like this: ``` =sum(<range>) ``` into that cell instead of the resulting value.
 
 2.7 You will be using the range calculation API in Lesson 4, so let's add another value into the Grand Total row. This one should total up the Qty column but not use the ```workbook.functions.sum()``` method. Instead add the ```=sum()``` formula into the cell for later calculation.
+* This should be the result
+![Grand Total Table](Image1_lesson2.png)
 
 2.8 After this is successful, add another row with Tax (say B6:E6) and include that into the Grand Total amount.
