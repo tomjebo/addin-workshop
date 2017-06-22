@@ -5,6 +5,10 @@
 
 1.1 Open Excel (preferably the desktop version).
 
+* We will be using the Excel JavaScript API. For information about the API requirements click the link below:
+* [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md)
+    * If you do not have the latest version of Excel, you can use Excel Online for this workshop.
+
 1.2 Go to Insert > My Add-ins > the Store icon (red shopping bag).
 
 1.3 Search for "Script Lab".
@@ -22,12 +26,18 @@
 
 1.8 In the **Run** pane, select the same.
 
-1.9 Select a matrix of several cells and click the **Run Code** button.
+1.9 Select a matrix of several cells (see photo below) and click the **Run Code** button.
+* For example, if four cells are selected
+
+    ![alt text](Image1_lesson1.png)
 
 Observations:
 
--   The cells selected should be highlighted in yellow.
--   Review the code in the Code pane.
+* The cells selected should be highlighted in yellow.
+
+    ![alt text](Image2_lesson1.PNG)
+
+* Review the code in the Code pane.
 
 Notice the ```Excel.run()``` invocation
 ```
@@ -62,20 +72,29 @@ You can now edit the Basic API call (JavaScript) sample code and it will save it
 
 1.10 Using the Script Lab code editor, modify the code to populate the cells with increasing numbers starting at 1.
 
-For example, if four cells are selected,
+For example, if four cells are selected, the output will look like this;
 
-![alt text](Image1_lesson1.png)
+![alt text](Image3_lesson1.png)
 
 Hints:
 
--   Use the ```.values``` property of the Range object.
--   Remember to load "values" first and then sync.
--   Fewer calls to ```context.sync``` mean fewer calls to the Office application.
--   If you use another function to populate, remember to pass in the context as well as the range.
--   If you get stuck, look at the other sample snippets for ideas.
+* Use the ```.values``` property of the Range object.
+* Remember to load "values" first and then sync.
+* Fewer calls to ```context.sync``` mean fewer calls to the Office application.
+* If you use another function to populate, remember to pass in the context as well as the range.
+* If you get stuck, look at the other sample snippets for ideas.
+* For more information about Range objects click on the link below:
+    * [Range Object - JavaScript API for Excel](https://github.com/OfficeDev/office-js-docs/blob/master/reference/excel/range.md)
 
 1.11 Once satisfied, run it to show the populated cells.
 
 1.12 Now you have a modified version of the Basic API call (JavaScript) sample code in MySnippets. Navigate to see that it's there.
+* To get My Snippets, click on the hamburger menu in the top left corner of the code panel. Then click on My Snippets at the top. Then you should see your snippet under the **My snippets on this computer** section.
+* This modified code in MySnippets will only remain in the add-in memory until you clear your browser cache.
 
-This modified code in MySnippets will only remain in the add-in memory until you clear your browser cache. We'll discuss saving and sharing the code in another lesson.
+1.13 Save your snippets on GitHub
+* If you want to save your snippet, you can do that by first signing in with GitHub on the My Snippet page.
+* Then click on the snippet you want to save. This will take you to the text editor portion of the code panel. 
+* Hover over the share button and choose either **Public gist** or **Private gist**
+
+

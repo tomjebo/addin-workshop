@@ -8,13 +8,12 @@ Some new functions were added recently and we can make use of them. First, make 
 
 For the ```calculate()``` function below, turn off the automatic formula calculation by going to File > Options > Formulas > select **Manual** under Workbook Calculation
 
-To use the ```Range.Calculate()``` method and for ```calculate()```, see https://dev.office.com/reference/add-ins/excel/range
+To use the ```Range.Calculate()``` method and for ```calculate()```, see <https://dev.office.com/reference/add-ins/excel/range>
 
 For the ConditionalFormat object, see:
 
-- <https://github.com/OfficeDev/office-js-docs/blob/ExcelJs\_OpenSpec/reference/excel/conditionalformatcollection.md>
-
-- <https://github.com/OfficeDev/office-js-docs/blob/ExcelJs\_OpenSpec/reference/excel/conditionalformat.md>
+* <https://github.com/OfficeDev/office-js-docs/blob/master/reference/excel/conditionalformatcollection.md>
+* <https://github.com/OfficeDev/office-js-docs/blob/master/reference/excel/conditionalformat.md>
 
 In order to use these two new APIs, you need Excel API requirement set 1.6 to be supported by the host application. Let's not take any chances and add a programmatic check in our code before executing these. Go here to read about requirement sets and how to check in code:
 <https://dev.office.com/reference/add-ins/requirement-sets/excel-api-requirement-sets>
@@ -25,7 +24,9 @@ Now that you have the information, add a button to calculate our price table ran
 
 4.2 In the same button handler, add code to apply conditional formatting.
 
+This should be the result:
+![Recalculate Table](Image1_lesson4.png)
+
 
 Hints:
-
-- It might be convenient to remove the stock multiply buttons from the sample code to make room for your new buttons.
+* It might be convenient to remove the stock multiply buttons from the sample code to make room for your new buttons.
