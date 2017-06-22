@@ -88,7 +88,7 @@ Hints:
 
 **Note:** If you've already done this lesson on your own, congratulations! You can skip to step 1.12. Otherwise, keep following the steps.
 
-1.01 Change the following line: 
+1.10.1 Change the following line: 
 
 ```
 range.load("address");
@@ -100,7 +100,7 @@ To:
 range.load([ "address", "values"]);
 ```
 
-1.02 After the following line:
+1.10.2 After the following line:
 
 ```
 console.log("The range address was \"" + range.address + "\".");
@@ -112,7 +112,7 @@ Add a call to a separate function in which we will populate the cells:
 return populateRange(context, range); // Added this line of code
 ```
 
-1.03 Now add the following populate function after the run() function:
+1.10.3 Now add the following populate function after the run() function:
 
 ```
 // Added the following code block
@@ -134,7 +134,7 @@ function populateRange(context: Excel.RequestContext, range: Excel.Range) {
 }
 ```
 
-1.04 Now run and test the code making sure that it works and shows as the image in 1.10.
+1.10.4 Now run and test the code making sure that it works and shows as the image in 1.10.
 
 1.11 Once satisfied, run it to show the populated cells.
 
