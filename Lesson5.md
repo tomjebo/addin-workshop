@@ -8,7 +8,7 @@ In this lesson we will be sending an email within an Office Add-in. Here are the
 * [Any Editor](https://dev.office.com/docs/add-ins/get-started/create-an-office-add-in-using-any-editor)
 * [Visual Studio](https://dev.office.com/docs/add-ins/get-started/create-and-debug-office-add-ins-in-visual-studio)
 
-If you are using **Visual Studios**, add the following files to the project root. If you are using a **text editor**, create a folder called entites in the root of the project, then add the following files inside of the enetities folder.
+If you are using **Visual Studio**, add the following files to the project root. If you are using a **text editor**, create a folder called entites in the root of the project, then add the following files inside of the entities folder.
 
    * ``home.html``
         ```
@@ -57,7 +57,7 @@ If you are using **Visual Studios**, add the following files to the project root
       </bt:Urls>
     ```
 
-5.2 Before we start coding the Office Add-in you need to register your application. Registerin the application gives you the ``clientId`` that is needed to do authentication with Office JS Helpers. See the application registration link below.
+5.2 Before we start coding the Office Add-in you need to register your application. Registering the application gives you the ``clientId`` that is needed to do authentication with Office JS Helpers. See the application registration link below.
 * [Application Registration](https://apps.dev.microsoft.com/#/appList)
 
 How to register application:
