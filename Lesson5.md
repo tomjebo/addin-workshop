@@ -4,7 +4,7 @@ In this lesson we will be sending an email within an Office Add-in. Here are the
 * [Microsoft Graph JavaSciprt SDK](https://github.com/microsoftgraph/msgraph-sdk-javascript)
 * [Office JS Helpers](https://github.com/OfficeDev/office-js-helpers)
 
-5.1 Create/setting up your Office Add-in project. It can be done in Visual Studios or any text editor. See the following links for instructions on how to create a new project. 
+5.1 Create/setting up your Office Add-in project. It can be done in Visual Studios or any text editor. See the following links for instructions on how to create a new project. The add-in we will be creating will be for Microsoft Word.
 * [Any Editor](https://dev.office.com/docs/add-ins/get-started/create-an-office-add-in-using-any-editor)
 * [Visual Studio](https://dev.office.com/docs/add-ins/get-started/create-and-debug-office-add-ins-in-visual-studio)
 
