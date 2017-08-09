@@ -102,19 +102,19 @@ range.load([ "address", "values"]);
 
 1.10.2 After the following line:
 
-```
+```javascript
 console.log("The range address was \"" + range.address + "\".");
 ```
 
 Add a call to a separate function in which we will populate the cells:
 
-```
+```javascript
 return populateRange(context, range); // Added this line of code
 ```
 
 1.10.3 Now add the following populate function after the run() function:
 
-```
+```javascript
 // Added the following code block
 function populateRange(context: Excel.RequestContext, range: Excel.Range) {
     console.log("populateRange: range is - ", range.address);
