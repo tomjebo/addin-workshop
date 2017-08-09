@@ -1,6 +1,6 @@
 # Lesson 3 Answers
 
-```
+```typescript
 async function createChart() {
     try {
         await Excel.run(async (ctx) => {

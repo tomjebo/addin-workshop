@@ -3,7 +3,7 @@
 
 2.0.1 Prep
 
-```
+```typescript
 $("#run").click(run);
  
 async function run() {
@@ -44,12 +44,14 @@ async function populateRange(context: Excel.RequestContext, range: Excel.Range) 
 
 2.5 Grand Total button
 
-```
+```html
 // Added this block of code
 <button id="grand-total" class="ms-Button">
         <span class="ms-Button-label">Grand Total</span>
 </button>
+```
 
+```typescript
 async function grandTotal() {
     try {
         await Excel.run(async (ctx) => {

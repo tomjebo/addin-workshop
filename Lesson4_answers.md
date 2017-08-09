@@ -2,7 +2,7 @@
 
 4.0.1 Programmatically check for API set 1.6.
 
-```
+```typescript
 if (Office.context.requirements.isSetSupported('ExcelApi', 1.6) === true) {
   /// perform actions
 }
@@ -13,7 +13,7 @@ else {
 
 4.1 Recalculate!
 
-```
+```typescript
 async function recalculate() {
     try {
         await Excel.run(async (ctx) => {
@@ -41,7 +41,7 @@ async function recalculate() {
 
 4.2 Add conditional formatting.
 
-```
+```typescript
 async function recalculate() {
 	try {
 		await Excel.run(async (ctx) => {

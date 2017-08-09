@@ -3,7 +3,7 @@
 
 1.10 Modified code to populate the range
 
-```
+```javascript
 $("#run").click(run);
 
 function run() {
