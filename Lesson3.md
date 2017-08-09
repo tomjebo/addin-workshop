@@ -17,7 +17,7 @@ Hints:
 
 3.11 In the "Script" tab, add the function to handle the button for creating the chart:
 
-```
+```typescript
 async function createChart() {
     try {
         await Excel.run(async (ctx) => {
@@ -38,12 +38,12 @@ async function createChart() {
 ```
 3.12 Now add the button click handler hook-up, just after the Grand Total click handler hook-up, at the top of the module:
 
-```
+```typescript
 $("#create-chart").click(createChart);
 ```
 
 3.13 Now add the button code in the "Template" tab:
-```
+```html
 <button id="create-chart" class="ms-Button">
     <span class="ms-Button-label">Add Chart</span>
 </button>

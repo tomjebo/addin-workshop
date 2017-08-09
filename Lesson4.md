@@ -36,7 +36,7 @@ Hints:
 
 4.3 Use this logic in your new function to programmatically check for API set 1.6.
 
-```
+```typescript
 if (Office.context.requirements.isSetSupported('ExcelApi', 1.6) === true) {
   /// perform actions
 }
@@ -47,7 +47,7 @@ else {
 
 4.4 Add the code in the case where 1.6 requirement set is available (if is true); in the else just output an error message saying we can't do it. The result should look like this:
 
-```
+```typescript
 async function recalculate() {
     try {
         await Excel.run(async (ctx) => {
@@ -75,14 +75,14 @@ async function recalculate() {
 
 4.5 To add conditional formatting, in the 1.6 "true" condition, after the following line: 
 
-```
+```typescript
 range.calculate();
 await ctx.sync();
 ```
 
 Add the following code to apply conditional formatting:
 
-```
+```typescript
 var conditionalFormat = range.conditionalFormats.add(Excel.ConditionalFormatType.iconSet);
 conditionalFormat.iconSetOrNullObject.style = "ThreeArrows";
 await ctx.sync()

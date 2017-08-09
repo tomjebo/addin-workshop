@@ -40,7 +40,7 @@ Observations:
 * Review the code in the Code pane.
 
 Notice the ```Excel.run()``` invocation
-```
+```javascript
 
 $("#run").click(run);
 
@@ -90,13 +90,13 @@ Hints:
 
 1.10.1 Change the following line: 
 
-```
+```javascript
 range.load("address");
 ```
 
 To: 
 
-```
+```javascript
 range.load([ "address", "values"]);
 ```
 

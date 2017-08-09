@@ -108,7 +108,7 @@ Notice that the ```sum()``` method returns programmatically the value of the sum
 
 2.6.1 Add the code for the button in the "Template" tab after the "Run code" button:
 
-```
+```html
 <button id="grand-total" class="ms-Button">
         <span class="ms-Button-label">Grand Total</span>
 </button>
@@ -116,7 +116,7 @@ Notice that the ```sum()``` method returns programmatically the value of the sum
 
 2.6.2 Now add the handler back in the "Script" tab at the end of the module:
 
-```
+```javascript
 async function grandTotal() {
     try {
         await Excel.run(async (ctx) => {
@@ -152,7 +152,7 @@ async function grandTotal() {
 
 2.6.3 Now add the button click handler hook-up, just after the other multiply-values click handler hook-ups, at the top of the module:
 
-```
+```javascript
 $("#grand-total").click(grandTotal);
 ```
 
